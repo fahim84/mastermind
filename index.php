@@ -83,7 +83,7 @@
 <body>
 
 <header class="container-fluid text-center">
-    <p>Header</p>
+    <img src="header.jpg">
 </header>
 
 <div class="content container">
@@ -397,9 +397,9 @@
 </div>
 
 <footer class="container-fluid text-center">
-    <p>Footer Text</p>
-
     <iframe width="350" height="180" src="https://w2.countingdownto.com/1870403" frameborder="0"></iframe>
+    <img src="footer.jpg">
+
 
 </footer>
 
