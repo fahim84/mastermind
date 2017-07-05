@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="blazebuddies.com">
+  <component name="PublishConfigData" serverName="blazebuddies.com" uploadOnCheckin="fc851c9f-66ed-43f8-83ba-6eaba39be875">
     <serverData>
       <paths name="blazebuddies.com">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="blazebuddies.com" />
   </component>
 </project>

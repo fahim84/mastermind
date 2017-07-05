@@ -17,6 +17,68 @@
         border: none;
         border-top:none;
     }
+
+    .novomixians_score, .novomixians_total,
+    .novomixians_score[disabled] , .novomixians_score[readonly],
+    .novomixians_total[disabled] , .novomixians_total[readonly]{
+        color: #ffffff;
+        background-color: #17365D; !important;
+        border-color: #17365D;
+        width: 50px;
+        text-align: center;
+    }
+
+    .levemirians_score, .levemirians_total,
+    .levemirians_score[disabled] , .levemirians_score[readonly],
+    .levemirians_total[disabled] , .levemirians_total[readonly]{
+        color: #ffffff;
+        background-color: #35CB98; !important;
+        border-color: #35CB98;
+        width: 50px;
+        text-align: center;
+    }
+
+    .norditropians_score, .norditropians_total,
+    .norditropians_score[disabled] , .norditropians_score[readonly],
+    .norditropians_total[disabled] , .norditropians_total[readonly]{
+        color: #ffffff;
+        background-color: #2C91AC; !important;
+        border-color: #2C91AC;
+        width: 50px;
+        text-align: center;
+    }
+
+    .mixtardians_score, .mixtardians_total,
+    .mixtardians_score[disabled] , .mixtardians_score[readonly],
+    .mixtardians_total[disabled] , .mixtardians_total[readonly]{
+        color: #ffffff;
+        background-color: #984807; !important;
+        border-color: #984807;
+        width: 50px;
+        text-align: center;
+    }
+
+    .victozians_score, .victozians_total,
+    .victozians_score[disabled] , .victozians_score[readonly],
+    .victozians_total[disabled] , .victozians_total[readonly]{
+        color: #ffffff;
+        background-color: #990433; !important;
+        border-color: #990433;
+        width: 50px;
+        text-align: center;
+    }
+
+    .novorapidians_score, .novorapidians_total,
+    .novorapidians_score[disabled] , .novorapidians_score[readonly],
+    .novorapidians_total[disabled] , .novorapidians_total[readonly]{
+        color: #ffffff;
+        background-color: #E36C0A; !important;
+        border-color: #E36C0A;
+        width: 50px;
+        text-align: center;
+    }
+
+
 </style>
 <body>
 
@@ -40,54 +102,60 @@
             <tr>
                 <td><button class="btn btn-info row_button">Product/Diseases</button> </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control novomixians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control novomixians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control levemirians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control levemirians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control norditropians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control norditropians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control mixtardians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control mixtardians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control victozians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control victozians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control novorapidians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control novorapidians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
                         </div>
@@ -99,54 +167,60 @@
             <tr>
                 <td><button class="btn btn-info row_button">Business Operations</button> </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control novomixians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control novomixians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control levemirians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control levemirians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control norditropians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control norditropians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control mixtardians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control mixtardians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control victozians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control victozians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control novorapidians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control novorapidians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
                         </div>
@@ -157,54 +231,60 @@
             <tr>
                 <td><button class="btn btn-info row_button">Novo Knowledge</button> </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control novomixians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control novomixians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control levemirians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control levemirians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control norditropians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control norditropians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control mixtardians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control mixtardians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control victozians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control victozians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control novorapidians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control novorapidians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
                         </div>
@@ -215,54 +295,60 @@
             <tr>
                 <td><button class="btn btn-info row_button">IQ</button> </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control novomixians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control novomixians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control levemirians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control levemirians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control norditropians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control norditropians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control mixtardians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control mixtardians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control victozians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control victozians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok " aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove " aria-hidden="true"></span></button>
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
-                        <input type="text" class="form-control novorapidians_score number" disabled readonly value="0">
-                        <div class="input-group-btn">
+                    <div >
+                        <input type="text" class="form-control novorapidians_score number pull-left" disabled readonly value="0">
+                        <div class="pull-left">&nbsp;</div>
+                        <div class="btn-group">
                             <button class="btn btn-success add-amount"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></button>
                             <button class="btn btn-danger less-amount"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
                         </div>
@@ -273,32 +359,32 @@
             <tr>
                 <td><button onclick="calculate_total();" class="btn btn-warning">Total</button>  </td>
                 <td>
-                    <div class="input-group">
+                    <div >
                         <input type="text" class="form-control novomixians_total number" readonly value="0">
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
+                    <div >
                         <input type="text" class="form-control levemirians_total number" readonly value="0">
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
+                    <div >
                         <input type="text" class="form-control norditropians_total number" readonly value="0">
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
+                    <div >
                         <input type="text" class="form-control mixtardians_total number" readonly value="0">
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
+                    <div >
                         <input type="text" class="form-control victozians_total number" readonly value="0">
                     </div>
                 </td>
                 <td>
-                    <div class="input-group">
+                    <div >
                         <input type="text" class="form-control novorapidians_total number" readonly value="0">
                     </div>
                 </td>
@@ -312,6 +398,9 @@
 
 <footer class="container-fluid text-center">
     <p>Footer Text</p>
+
+    <iframe width="350" height="180" src="https://w2.countingdownto.com/1870403" frameborder="0"></iframe>
+
 </footer>
 
 
@@ -321,7 +410,7 @@
         disabled_all_plus_minus();
         $(this).parent().parent().find('.add-amount').attr('disabled',false);
         $(this).parent().parent().find('.less-amount').attr('disabled',false);
-        $(this).parent().parent().find('.input-group-btn').show();
+        $(this).parent().parent().find('.btn-group').show();
     });
 
     $(document).on( 'click',".add-amount", function(e) {
@@ -343,7 +432,7 @@
 
     function disabled_all_plus_minus() {
         $('.add-amount, .less-amount').attr('disabled',true);
-        $('.input-group-btn').hide();
+        $('.btn-group').hide();
     }
     disabled_all_plus_minus();
     function calculate_total() {
