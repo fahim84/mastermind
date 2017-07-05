@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fc851c9f-66ed-43f8-83ba-6eaba39be875" name="blazebuddies.com" url="http://blazebuddies.com">
+        <fileTransfer host="blazebuddies.com" port="21" rootFolder="/public_html/blazebuddies.com/mastermind">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
