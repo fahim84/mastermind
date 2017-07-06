@@ -21,13 +21,17 @@
         border-top:none;
     }
 
+    .container {
+        width: 1220px;
+    }
+
     .novomixians_score, .novomixians_total,
     .novomixians_score[disabled] , .novomixians_score[readonly],
     .novomixians_total[disabled] , .novomixians_total[readonly]{
         color: #ffffff;
         background-color: #17365D; !important;
         border-color: #17365D;
-        width: 50px;
+        width: 60px;
         text-align: center;
         font-size: 18px;
     }
@@ -38,7 +42,7 @@
         color: #ffffff;
         background-color: #35CB98; !important;
         border-color: #35CB98;
-        width: 50px;
+        width: 60px;
         text-align: center;
         font-size: 18px;
     }
@@ -49,7 +53,7 @@
         color: #ffffff;
         background-color: #2C91AC; !important;
         border-color: #2C91AC;
-        width: 50px;
+        width: 60px;
         text-align: center;
         font-size: 18px;
     }
@@ -60,7 +64,7 @@
         color: #ffffff;
         background-color: #984807; !important;
         border-color: #984807;
-        width: 50px;
+        width: 60px;
         text-align: center;
         font-size: 18px;
     }
@@ -71,7 +75,7 @@
         color: #ffffff;
         background-color: #990433; !important;
         border-color: #990433;
-        width: 50px;
+        width: 60px;
         text-align: center;
         font-size: 18px;
     }
@@ -82,7 +86,7 @@
         color: #ffffff;
         background-color: #E36C0A; !important;
         border-color: #E36C0A;
-        width: 50px;
+        width: 60px;
         text-align: center;
         font-size: 18px;
     }
