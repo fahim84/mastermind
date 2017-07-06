@@ -13,6 +13,9 @@
 </head>
 
 <style>
+    body {
+        font-family: Verdana;!important;
+        font-size: 14px;}
     .borderless td, .borderless th {
         border: none;
         border-top:none;
@@ -26,6 +29,7 @@
         border-color: #17365D;
         width: 50px;
         text-align: center;
+        font-size: 18px;
     }
 
     .levemirians_score, .levemirians_total,
@@ -36,6 +40,7 @@
         border-color: #35CB98;
         width: 50px;
         text-align: center;
+        font-size: 18px;
     }
 
     .norditropians_score, .norditropians_total,
@@ -46,6 +51,7 @@
         border-color: #2C91AC;
         width: 50px;
         text-align: center;
+        font-size: 18px;
     }
 
     .mixtardians_score, .mixtardians_total,
@@ -56,6 +62,7 @@
         border-color: #984807;
         width: 50px;
         text-align: center;
+        font-size: 18px;
     }
 
     .victozians_score, .victozians_total,
@@ -66,6 +73,7 @@
         border-color: #990433;
         width: 50px;
         text-align: center;
+        font-size: 18px;
     }
 
     .novorapidians_score, .novorapidians_total,
@@ -76,6 +84,7 @@
         border-color: #E36C0A;
         width: 50px;
         text-align: center;
+        font-size: 18px;
     }
 
 
@@ -83,7 +92,7 @@
 <body>
 
 <header class="container-fluid text-center">
-    <img src="header1.jpg">
+    <img src="header2.jpg">
 </header>
 
 <div class="content container">
@@ -92,12 +101,12 @@
         <table class="table borderless" >
             <tr>
                 <th></th>
-                <th>NOVOMIXIANS</th>
-                <th>LEVEMIRIANS</th>
-                <th>NORDITROPIANS</th>
-                <th>MIXTARDIANS</th>
-                <th>VICTOZIANS</th>
-                <th>NOVORAPIDIANS</th>
+                <th style="color: #17365D">NOVOMIXIANS</th>
+                <th style="color: #35CB98">LEVEMIRIANS</th>
+                <th style="color: #2C91AC">NORDITROPIANS</th>
+                <th style="color: #984807">MIXTARDIANS</th>
+                <th style="color: #990433">VICTOZIANS</th>
+                <th style="color: #E36C0A">NOVORAPIDIANS</th>
             </tr>
             <tr>
                 <td><button class="btn btn-info row_button">Product/Diseases</button> </td>
