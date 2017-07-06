@@ -109,7 +109,7 @@
                 <th style="color: #E36C0A">NOVORAPIDIANS</th>
             </tr>
             <tr>
-                <td><button class="btn btn-info row_button">Product/Diseases</button> </td>
+                <td><button class="btn btn-info row_button">PRODUCT/DISEASES</button> </td>
                 <td>
                     <div >
                         <input type="text" class="form-control novomixians_score number pull-left" disabled readonly value="0">
@@ -174,7 +174,7 @@
             </tr>
 
             <tr>
-                <td><button class="btn btn-info row_button">Business Operations</button> </td>
+                <td><button class="btn btn-info row_button">BUSINESS OPERATIONS</button> </td>
                 <td>
                     <div >
                         <input type="text" class="form-control novomixians_score number pull-left" disabled readonly value="0">
@@ -238,7 +238,7 @@
 
             </tr>
             <tr>
-                <td><button class="btn btn-info row_button">Novo Knowledge</button> </td>
+                <td><button class="btn btn-info row_button">NOVO KNOWLEDGE</button> </td>
                 <td>
                     <div >
                         <input type="text" class="form-control novomixians_score number pull-left" disabled readonly value="0">
@@ -366,7 +366,7 @@
 
             </tr>
             <tr>
-                <td><button onclick="calculate_total();" class="btn btn-warning">Total</button>  </td>
+                <td><button onclick="calculate_total();" class="btn btn-warning">TOTAL</button>  </td>
                 <td>
                     <div >
                         <input type="text" class="form-control novomixians_total number" readonly value="0">
@@ -407,8 +407,7 @@
 
 <footer class="container-fluid text-center">
 
-    <iframe width="640" height="480" src="//www.ytcropper.com/embed/9C595d7827f245e/loop/noautoplay/" frameborder="0" allowfullscreen></iframe>
-
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xavv4gSbZqc" frameborder="0" allowfullscreen></iframe>
     <img src="footer1.jpg">
 
 
